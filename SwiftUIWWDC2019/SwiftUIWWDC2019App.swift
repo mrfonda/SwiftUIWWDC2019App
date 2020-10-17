@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIWWDC2019App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(store: RoomStore(rooms: testData))
         }
     }
 }

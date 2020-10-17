@@ -16,6 +16,9 @@
 		4A802B542539AB4C004FCB08 /* SwiftUIWWDC2019UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A802B532539AB4C004FCB08 /* SwiftUIWWDC2019UITests.swift */; };
 		4A802B652539B000004FCB08 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A802B642539B000004FCB08 /* Room.swift */; };
 		4A802B6A2539B02C004FCB08 /* Rooms.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A802B692539B02C004FCB08 /* Rooms.xcassets */; };
+		76C9FCD6253AE86100056E7F /* RoomStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C9FCD5253AE86100056E7F /* RoomStore.swift */; };
+		76C9FCE2253AFFB700056E7F /* English.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76C9FCE4253AFFB700056E7F /* English.strings */; };
+		76C9FCED253B2CEF00056E7F /* English.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 76C9FCEF253B2CEF00056E7F /* English.stringsdict */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		4A802B552539AB4C004FCB08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A802B642539B000004FCB08 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 		4A802B692539B02C004FCB08 /* Rooms.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Rooms.xcassets; sourceTree = "<group>"; };
+		76C9FCD5253AE86100056E7F /* RoomStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomStore.swift; sourceTree = "<group>"; };
+		76C9FCE3253AFFB700056E7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/English.strings; sourceTree = "<group>"; };
+		76C9FCEE253B2CEF00056E7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/English.stringsdict; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +111,13 @@
 				4A802B382539AB49004FCB08 /* ContentView.swift */,
 				4A7164D0253A3B4E00B9CB4F /* RoomDetail.swift */,
 				4A802B642539B000004FCB08 /* Room.swift */,
+				76C9FCD5253AE86100056E7F /* RoomStore.swift */,
 				4A802B3A2539AB4C004FCB08 /* Assets.xcassets */,
 				4A802B692539B02C004FCB08 /* Rooms.xcassets */,
 				4A802B3F2539AB4C004FCB08 /* Info.plist */,
 				4A802B3C2539AB4C004FCB08 /* Preview Content */,
+				76C9FCE4253AFFB700056E7F /* English.strings */,
+				76C9FCEF253B2CEF00056E7F /* English.stringsdict */,
 			);
 			path = SwiftUIWWDC2019;
 			sourceTree = "<group>";
@@ -242,7 +251,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76C9FCED253B2CEF00056E7F /* English.stringsdict in Resources */,
 				4A802B3E2539AB4C004FCB08 /* Preview Assets.xcassets in Resources */,
+				76C9FCE2253AFFB700056E7F /* English.strings in Resources */,
 				4A802B6A2539B02C004FCB08 /* Rooms.xcassets in Resources */,
 				4A802B3B2539AB4C004FCB08 /* Assets.xcassets in Resources */,
 			);
@@ -269,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76C9FCD6253AE86100056E7F /* RoomStore.swift in Sources */,
 				4A802B392539AB49004FCB08 /* ContentView.swift in Sources */,
 				4A802B372539AB49004FCB08 /* SwiftUIWWDC2019App.swift in Sources */,
 				4A802B652539B000004FCB08 /* Room.swift in Sources */,
@@ -306,6 +318,25 @@
 			targetProxy = 4A802B502539AB4C004FCB08 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76C9FCE4253AFFB700056E7F /* English.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76C9FCE3253AFFB700056E7F /* en */,
+			);
+			name = English.strings;
+			sourceTree = "<group>";
+		};
+		76C9FCEF253B2CEF00056E7F /* English.stringsdict */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76C9FCEE253B2CEF00056E7F /* en */,
+			);
+			name = English.stringsdict;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4A802B562539AB4C004FCB08 /* Debug */ = {
