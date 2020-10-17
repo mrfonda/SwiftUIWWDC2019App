@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A7164D1253A3B4E00B9CB4F /* RoomDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7164D0253A3B4E00B9CB4F /* RoomDetail.swift */; };
 		4A802B372539AB49004FCB08 /* SwiftUIWWDC2019App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A802B362539AB49004FCB08 /* SwiftUIWWDC2019App.swift */; };
 		4A802B392539AB49004FCB08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A802B382539AB49004FCB08 /* ContentView.swift */; };
 		4A802B3B2539AB4C004FCB08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A802B3A2539AB4C004FCB08 /* Assets.xcassets */; };
 		4A802B3E2539AB4C004FCB08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A802B3D2539AB4C004FCB08 /* Preview Assets.xcassets */; };
 		4A802B492539AB4C004FCB08 /* SwiftUIWWDC2019Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A802B482539AB4C004FCB08 /* SwiftUIWWDC2019Tests.swift */; };
 		4A802B542539AB4C004FCB08 /* SwiftUIWWDC2019UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A802B532539AB4C004FCB08 /* SwiftUIWWDC2019UITests.swift */; };
+		4A802B652539B000004FCB08 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A802B642539B000004FCB08 /* Room.swift */; };
+		4A802B6A2539B02C004FCB08 /* Rooms.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A802B692539B02C004FCB08 /* Rooms.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A7164D0253A3B4E00B9CB4F /* RoomDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetail.swift; sourceTree = "<group>"; };
 		4A802B332539AB49004FCB08 /* SwiftUIWWDC2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIWWDC2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A802B362539AB49004FCB08 /* SwiftUIWWDC2019App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWWDC2019App.swift; sourceTree = "<group>"; };
 		4A802B382539AB49004FCB08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +49,8 @@
 		4A802B4F2539AB4C004FCB08 /* SwiftUIWWDC2019UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIWWDC2019UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A802B532539AB4C004FCB08 /* SwiftUIWWDC2019UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWWDC2019UITests.swift; sourceTree = "<group>"; };
 		4A802B552539AB4C004FCB08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A802B642539B000004FCB08 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		4A802B692539B02C004FCB08 /* Rooms.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Rooms.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +103,10 @@
 			children = (
 				4A802B362539AB49004FCB08 /* SwiftUIWWDC2019App.swift */,
 				4A802B382539AB49004FCB08 /* ContentView.swift */,
+				4A7164D0253A3B4E00B9CB4F /* RoomDetail.swift */,
+				4A802B642539B000004FCB08 /* Room.swift */,
 				4A802B3A2539AB4C004FCB08 /* Assets.xcassets */,
+				4A802B692539B02C004FCB08 /* Rooms.xcassets */,
 				4A802B3F2539AB4C004FCB08 /* Info.plist */,
 				4A802B3C2539AB4C004FCB08 /* Preview Content */,
 			);
@@ -234,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A802B3E2539AB4C004FCB08 /* Preview Assets.xcassets in Resources */,
+				4A802B6A2539B02C004FCB08 /* Rooms.xcassets in Resources */,
 				4A802B3B2539AB4C004FCB08 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +271,8 @@
 			files = (
 				4A802B392539AB49004FCB08 /* ContentView.swift in Sources */,
 				4A802B372539AB49004FCB08 /* SwiftUIWWDC2019App.swift in Sources */,
+				4A802B652539B000004FCB08 /* Room.swift in Sources */,
+				4A7164D1253A3B4E00B9CB4F /* RoomDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +311,7 @@
 		4A802B562539AB4C004FCB08 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -333,6 +345,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT) ";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -353,6 +366,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -360,7 +374,7 @@
 		4A802B572539AB4C004FCB08 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -394,6 +408,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT) ";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -407,6 +422,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
